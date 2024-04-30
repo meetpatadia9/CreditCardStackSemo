@@ -10,7 +10,7 @@ import com.ipsmeet.creditcardstacksemo.databinding.ActivityMainBinding
 class MainActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityMainBinding
-    private val cardList = arrayListOf(R.drawable.img_2, R.drawable.img_1, R.drawable.img_3, R.drawable.img_4)
+    private val cardList = arrayListOf(R.drawable.img, R.drawable.img_5, R.drawable.img_6, R.drawable.img_7)
     lateinit var cardAdapter: CardAdapter
 
     override fun onCreate(savedInstanceState: Bundle?) {
